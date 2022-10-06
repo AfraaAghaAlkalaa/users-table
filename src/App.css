@@ -1,0 +1,71 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 2%;
+  margin: 2% 3% 0% 3%;
+  width: 90%;
+  border: 3px solid gray;
+  border-radius: 30px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th {
+  border: 1px solid #ffffff;
+  border-radius: 8px;
+  text-align: center;
+  padding: 8px;
+  font-size: 32px;
+  background-color: rgb(117, 201, 250);
+}
+
+td {
+  border: 1px solid #ffffff;
+  text-align: left;
+  padding: 8px;
+  font-size: 32px;
+  background-color: rgb(205, 235, 253);
+}
+
+form {
+  display: flex;
+  gap: 5px;
+}
+
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form * {
+  font-size: 15px;
+}
+button {
+    border-color: #a9a9ac;
+
+
+  border-radius: 7px;
+  /* border: #962e2e; */
+  width: 50px;
+  height: 30px;
+  color: rgb(101, 170, 211);
+  background-color: rgba(219, 218, 216, 0.5);
+}
+h3 {
+  border: solid 2px  rgb(101, 170, 211);
+  width: 120px;
+  text-align: center;
+  border-radius: 7px;
+}
+h1{
+padding-left: 3%;
+}
+input{
+border-color: #b90202;
+border-radius: 7px;
+
+}
